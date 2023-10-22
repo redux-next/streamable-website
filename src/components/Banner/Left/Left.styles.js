@@ -71,7 +71,7 @@ export const Container = styled(Link)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   &:hover ${Title}, &:focus ${Title} {
-    text-decoration: underline;
+    text-decoration: none;
   }
   &:hover ${Wrapper}, &:focus ${Wrapper} {
     background: rgba(0, 0, 0, 0.75);

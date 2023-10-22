@@ -37,6 +37,7 @@ const NavBar = () => {
           <NavLink href={"/anime"}>Anime</NavLink>
           <NavLink href={"/app"}>App</NavLink>
           <NavLink href={"/donate"}>Donate</NavLink>
+          <NavLink href={"https://www.instagram.com/just._.antra_/"} target={"blank"}>Antra 😂</NavLink>
           {/* <NavLink href={"/genres"}>Genres</NavLink> */}
         </Links>
         <Search />

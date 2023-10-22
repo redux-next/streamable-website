@@ -6,14 +6,15 @@ export const FooterWrapper = styled.div`
   margin-top: 5rem;
   width: 100%;
   background-color: ${({ theme }) => theme.base.navBg};
-  padding: 1rem 0;
+  padding: 10px;
+  text-align: center;
 `;
 
 export const TextContainer = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   gap: 0.6rem;
 `;
 
@@ -21,7 +22,6 @@ export const Logo = styled(Image)`
   width: 150px;
   height: 60px;
   object-fit: contain;
-  object-position: left;
 `;
 
 export const Text = styled.p`

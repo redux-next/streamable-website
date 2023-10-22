@@ -23,6 +23,8 @@ const FooterContainer = () => {
             This site does not store any files on its server.
             <br />
             All contents are provided by non-affiliated third parties.
+            <br />
+            Developed by GYANAM and RYAAN
           </Text>
           <Icons>
             <Link

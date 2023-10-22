@@ -9,30 +9,19 @@ import {
   Wrapper,
   ImageContainer,
   DownloadButton,
-} from "./AppContainer.styles";
+} from "./AntraaContainer.styles";
 
 import appShowOff from "../../assets/images/app-show-off.png";
 import Image from "next/image";
 
-const AppContainer = () => {
+const AntraaContainer = () => {
   return (
     <Container>
       <Wrapper>
         {/* <Title>Streamable Android App</Title> */}
         <ImageContainer>
           <LeftContainer>
-            <SubText>Want a better experience on a mobile device?</SubText>
-            {/* <SubText>
-              Only available on android devices for the time being
-            </SubText>
-            <DownloadButton
-              href={
-                "https://github.com/StreamAble-Team/StreamAble-app/releases"
-              }
-            >
-              Download
-            </DownloadButton> */}
-            <h3>Coming soon...</h3>
+            
           </LeftContainer>
           <Image src={appShowOff} />
         </ImageContainer>
@@ -41,4 +30,4 @@ const AppContainer = () => {
   );
 };
 
-export default AppContainer;
+export default AntraaContainer;
